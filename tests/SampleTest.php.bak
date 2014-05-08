@@ -1,0 +1,11 @@
+<?php
+Class SampleTest extends PHPUnit_Framework_TestCase
+{
+    /**
+     * @test
+     */
+    public function テストが実行できること()
+    {
+        $this->assertTrue(true);
+    }
+}
