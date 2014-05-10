@@ -1,4 +1,4 @@
-# travis_ci_test
+# travis_ci_sample
 Travis CIをさわってみるためのサンプル
 
 ----
@@ -11,12 +11,12 @@ Travis CIをさわってみるためのサンプル
 Calculatorクラスのテスト。  
 addメソッドに引数1と2を渡し、3が返ってくるかどうかのテストケースが入っている。
 
-### vandor/
+### vendor/
 composerで入れたphpunitとかtestrunnerとか。
 
 ----
 ## とりあえず手動でphpunitでテストするには
-phpunit tests/CalculatorTest.php
+`./vendor/bin/phpunit tests/CalculatorTest.php`
 
 ----
 ## それをtestrunnerでテストするには
